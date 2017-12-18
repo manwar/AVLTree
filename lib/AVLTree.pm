@@ -4,8 +4,8 @@ use 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
-our $ENABLE_DEBUG = 0;
+our $VERSION = '0.1.1';
+our $ENABLE_DEBUG = 1;
 
 require XSLoader;
 XSLoader::load('AVLTree', $VERSION);
